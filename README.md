@@ -1,3 +1,6 @@
+# Fork notice
+This is a fork from the great work of codecae/betaflight-tx-lua-revised to add support for the Taranis Q X7 radio.
+
 # betaflight-tx-lua-revised
 Various enhancements to the typical betaflight-tx-lua-scripts design.  Borrowed some existing code, but added more features and improved memory management.  Currently only implemented for the X9 series transmitters.
 
