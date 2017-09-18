@@ -5,6 +5,7 @@ return {
    title          = "PIDs",
    reboot         = false,
    eepromWrite    = true,
+   minBytes       = 8,
    text = {
       { t = "P",      x =  48,  y = 14 },
       { t = "I",      x = 76,   y = 14 },

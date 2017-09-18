@@ -4,8 +4,7 @@ return {
    title          = "Rates (1/2)",
    reboot         = false,
    eepromWrite    = true,
-   postRead       = postReadRates,
-   getWriteValues = getWriteValuesRates,
+   minBytes       = 12,
    text = {
       { t = "RC",       x = 27,  y = 11, to = SMLSIZE },
       { t = "Rate",     x = 24,  y = 18, to = SMLSIZE },

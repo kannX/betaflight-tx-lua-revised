@@ -6,7 +6,7 @@ return {
    reboot            = false,
    postRead          = postReadFilters,
    getWriteValues    = getWriteValuesFilters,
-   title             = "Filters",
+   title 
    text= {
       { t = "LPF",    x = 1, y = 14, to = SMLSIZE },
       { t = "Gyro",   x = 1, y = 24, to = SMLSIZE },

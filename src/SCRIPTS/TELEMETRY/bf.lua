@@ -15,6 +15,11 @@ supportedRadios =
     {
         templateHome    = SCRIPT_HOME.."/X9/",
         preLoad         = SCRIPT_HOME.."/X9/x9pre.lua"
+    },
+    ["qx7"] =
+    {
+        templateHome    = SCRIPT_HOME.."/X7/",
+        preLoad         = SCRIPT_HOME.."/X7/x7pre.lua"
     }
 }
 

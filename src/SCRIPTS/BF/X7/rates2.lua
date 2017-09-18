@@ -5,8 +5,7 @@ return {
    title          = "Rates (2/2)",
    reboot         = false,
    eepromWrite    = true,
-   postRead       = postReadRatesAdv,
-   getWriteValues = getWriteValuesRatesAdv,
+   minBytes       = 23,
    text = {
       { t = "Anti-Grav.", x = 3, y = 13, to = SMLSIZE },
       { t = "Gain", x = 3, y = 23, to = SMLSIZE },
