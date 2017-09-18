@@ -16,10 +16,10 @@ return {
       { t = "VBAT Comp.", x = 3, y = 44, to = SMLSIZE }
    },
    fields = {
-      { i = 22, x = 28, y = 23, min = 1, max = 30 },
-      { i = 20, x = 28, y = 33, min = 20, max = 1000 },
-      { i = 10, x = 90, y = 23, min = 0, max = 254 },
-      { i = 9, x = 90, y = 33, min = 0, max = 100 },
-      { i = 8, x = 70, y = 44, min = 0, max = 1, table = { [0]="OFF", "ON" } },
+      { x = 28,  y = 23, min = 1000, max = 30000, vals = { 22, 23 }, scale = 1000, mult = 1000 },
+      { x = 28,  y = 33, min = 20, max = 1000, vals = { 20, 21 } },
+      { x = 90,  y = 23, min = 0, max = 254, vals = { 10 }, scale = 100 },
+      { x = 90,  y = 33, min = 0, max = 100, vals = { 9 }, scale = 100 },
+      { x = 70,  y = 44, min = 0, max = 1, vals = { 8 }, table = { [0]="OFF", "ON" } },
    }
 }
